@@ -4,7 +4,7 @@ from yolo import YOLO, detect_video
 from PIL import Image
 
 def detect_img(yolo):
-    path = './pics/F2.jpg'
+    path = './data/temp/example.jpg'
     img = path
     while True:
         image = Image.open(img)
